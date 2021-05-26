@@ -1,0 +1,67 @@
+body {
+    background-color: #eef0f1;
+    min-height: 100vh;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+li>a {
+    color: white;
+}
+
+li>a:hover {
+    color: white;
+}
+
+ul>li :hover {
+    border-radius: 2%;
+    background-color: #746d6d88;
+}
+
+.navbar {
+    font-weight: 400;
+    font-size: 1.2em;
+    background-color: #220000;
+}
+
+.form-color {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 1%;
+    background-color: white;
+
+}
+
+.btn-outline-info {
+    color: #220000;
+    border-color: #220000;
+}
+
+.btn-outline-info:hover {
+    border-color: #220000;
+    background-color: #220000;
+}
+
+.btn-danger {
+    background-color: #220000;
+    border-color: #220000;
+}
+
+.btn-danger:hover {
+    background-color: #220000ec;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: rgb(126, 105, 105);
+}
+
+.display-4 {
+    font-size: 3.5em;
+}
